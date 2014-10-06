@@ -1,0 +1,36 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: TinTin++
+fileTypes:
+- tt
+- tin
+scopeName: source.tin
+uuid: 1c89e44d-8658-46ac-a0ad-4fd0c3102f10
+
+patterns:
+
+- name: keyword.control
+  match: "#(?i:if|case|continue|default|while|else|elseif|endif|break|for|foreach|forall|return)\\b"
+
+- name: support.function
+  match: "#(?i:action|alias|all|bell|buffer|chat|class|config|cr|cursor|debug|default|delay|echo|end|event|function|gag|greeting|grep|help|highlight|history|ignore|info|kill|line|list|log|loop|macro|map|math|message|parse|path|pathdir|prompt|read|regexp|replace|return|run|scan|script|send|session|showme|substitute|suspend|switch|system|tab|textin|ticker|variable|var|write|zap)\\b"
+
+- name: comment.line
+  begin: '#nop'
+  end: ';'
+
+- name: comment.block
+  begin: '/\*'
+  end: '\*/'
+
+- name: variable.parameter
+  match: '%([\-\+\w+|\.]+)'
+
+- name: variable.other
+  match: '\$(\w+)'
+
+- name: constant.other
+  match: '&lt;...&gt;'
+
+- name: constant.numeric
+  match: '\b(\d+)\b'
