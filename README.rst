@@ -1,10 +1,8 @@
-=========================================
-TinTinPlusPlus Sublime Syntax Highlighter
-=========================================
-TinTin++ syntax highlighting for the Sublime Text Editor. Updated with support for new language features.
-This script was adapted from `here <https://sublime.wbond.net/packages/TinTin%2B%2B%20Syntax%20Highlighter>`_.
-
-`Tintin\+\+ <http://tintin.sourceforge.net/>`_ is a cross-platform terminal-based MUD client for Windows, Mac OS X and Linux.
+===============================
+TinTinPlusPlus for Sublime Text
+===============================
+TinTinPlusPlus for Sublime Text currently contains an syntax highlighting, loosely based on `this <https://sublime.wbond.net/packages/TinTin%2B%2B%20Syntax%20Highlighter>`_.
+Currently working on adding snippets, completions, and linting.
 
 ------------
 Installation
@@ -22,9 +20,9 @@ Manual
 ======
 Just download the tintin.tmLanguage file into your Packages folder. Refer to the Git section to find your Packages folder.
 
------------
-Development
------------
+-----------------
+Development Notes
+-----------------
 
 - `Syntax Definition Tutorial           <https://sublime-text-unofficial-documentation.readthedocs.org/en/latest/extensibility/syntaxdefs.html>`_
 - `Stackoverflow tmLanguage Standards   <https://stackoverflow.com/questions/23463803/are-there-any-standards-for-tmlanguage-keyword-types>`_
